@@ -1,6 +1,7 @@
 from inline_ordering.admin import OrderableStackedInline
-import forms
-import models
+
+from . import forms
+from . import models
 
 
 class ImageInline(OrderableStackedInline):
